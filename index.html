@@ -1,0 +1,88 @@
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" >
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <a id="icon" href="#"><ion-icon name="chevron-back-outline"></ion-icon></a>
+
+    <div>
+        <h1 id="titulo">Cadastrar Empresa</h1>
+        <p id="subtitulo">Minhas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome *</label>
+                <input type="text" name="nome" placeholder=" João" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome">Sobrenome *</label>
+                <input type="text" name="sobrenome" placeholder=" Souza">
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="cpf/cnpj">CPF/CNPJ *</label>
+            <input class="cpf" type="text" name="cpf/cnpj" placeholder=" 000.000.000-00">
+        </div>
+
+        <div class="campo">
+            <label for="email">E-mail *</label>
+            <input class="email" type="email" name="email" placeholder=" email@email.com">
+        </div>
+
+        <div class="campo">
+            <label>Telefone *</label>
+            <input class="ddd" type="number" name="ddd" placeholder="(00)">
+            <input type="number" name="numero" placeholder=" 0 0000-0000">
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="cep">CEP *</label>
+                <input type="number" name="cep" placeholder=" 00-000000">
+            </div>
+
+            <div class="campo">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" placeholder=" -">
+            </div>
+
+            <div class="campo">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" placeholder=" -">
+            </div>
+
+            <div class="campo">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" placeholder=" -">
+            </div>
+
+            <div class="campo">
+                <label for="numero">Número</label>
+                <input type="number" name="numero" placeholder=" -">
+            </div>
+
+            <div class="campo">
+                <label for="complemento">Complemento</label>
+                <input type="text" name="complemento" placeholder=" -">
+            </div>
+        </fieldset>
+    
+        <button class="botao" type="submit">Avançar</button>
+    </form>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
